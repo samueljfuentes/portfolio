@@ -1,0 +1,79 @@
+.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+
+  & li {
+    display: inline-block;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.icon {
+  transition: background-color 0.25s ease-in-out;
+  width: 2.25rem;
+  height: 2.25rem;
+  text-align: left;
+  line-height: 2.25rem;
+  border-radius: 2.25rem;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  vertical-align: inherit;
+
+  &:before {
+    display: inline-block;
+    text-rendering: auto;
+    font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    // for fa-solid icons
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+  }
+}
+
+.brands:before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.twitter:before {
+  content: "\f099";
+}
+
+.github:before {
+  content: "\f09b";
+}
+
+.linked-in:before {
+  content: "\f08c";
+}
+
+.arrow:before {
+  content: "\f175";
+  font-size: 3rem;
+}
+
+.react:before {
+  content: "\f41b";
+}
+
+.nodejs:before {
+  content: "\f419"
+}
+
+.database:before {
+  content: "\f1c0";
+}
+
+.coding:before {
+  content: "\f121";
+}
+
+.security:before {
+  content: "\f21b";
+}
