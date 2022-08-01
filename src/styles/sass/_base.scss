@@ -137,7 +137,7 @@ ul {
 }
 
 .actions {
-  display: flex;
+  display: none; // change this to flex once JS functionality is added
   cursor: default;
   list-style: none;
   margin-left: -1rem;
@@ -183,7 +183,8 @@ a {
   }
 
   &.main {
-    display: block;
+    // display: block; // change back when pic is ready
+    display: none;
     margin: 3rem 0;
     width: 100%;
 

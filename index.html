@@ -42,11 +42,11 @@
       </header>
       <div class="content">
         <p>
-          <strong>I'm a self-taught developer</strong> and I've been playing around with Python and JavaScript for several years now. From writing small scripts for parsing through financial market data; to coding along with courses and building small e-commerce websites; to building my own full-stack, containerized application hosted on Heroku. More recently I've decided to try making a career out of this hobby and break into tech from a non-traditional background.
+          <strong>I'm a self-taught developer</strong> and I've been playing around with Python and JavaScript for several years now. From writing small scripts for parsing through financial market data; to coding along with courses and building small e-commerce websites; to building my own full-stack, containerized application hosted on Heroku. Besides earning credibility in the tech industry, I'd love to contribute to teams building professional applications to really understand the process and gain the confidence to execute on my own ideas.
           <br><br>
-          I first became interested in programming as a supplement to another one of my interests: cybersecurity. I've been curious about a career in penetration testing and red teaming, and so I began teaching myself the basics of computer science and networking. I quickly realized that the best hackers are proficient programmers, and from my proverbial "first 'Hello, World!'" I was immediately hooked. As someone who enjoyed and excelled at mathematics and abstraction in school, the problem solving aspect of the craft is incredibly fulfilling. The opportunity to test, maintain, and - especially - build real production software while improving as an engineer and my quality of life is a really exciting prospect.
+          Several years ago I became interested in pursuing a career in cybersecurity, and most of the learning material for beginners recommended learning to code. I quickly started enjoying programming as a hobby for it's own sake, particularly because of the heavy problem solving and abstraction. Initially I had a lot of fun playing with API's for financial market data and sports statistics, and even though I was limited in what I could build the possibilities we're very clear to me and very enticing. I reunited with old friends who are more experienced programmers but equally motivated and began collaborating on more serious projects. Now, as I've developed my skills across a couple of different languages and frameworks, I've grown more confident in my ability to conritbute to a team in a professional role. Earning credibility and a reputation in the tech industry, while also contributing to meaningful work and increasing my earning potential are my main focus.
           <br><br>
-          In preparation for this career transition I've recently turned my focus to really familiarizing myself with data structures & algorithms so I can contribute meaningfully to discussions about implementation and architecture, as well as feel more comfortable in my ability to consistently implement optimal solutions. Admittedly, I've taken a longer time than I would've liked to begin exploring careers in this space, but I'm excited to finally start building interesting projects and solving engaging problems.
+          In preparation for this career transition I've gone more in depth into data structures and algorithms so I can contribute meaningfully to discussions about implementation and architecture, and also to be more confident that I can consistently implement optimal solutions. Admittedly, I've taken a longer time than I probably should have to begin exploring careers in this space, but I'm excited to finally start building interesting projects and solve engaging problems.
         </p>
         <span class="image main">
           <img src="./src/assets/stay-path.jpg" alt="YOU'RE NOT DONE">
@@ -60,17 +60,21 @@
       </header>
       <div class="content">
         <p>
-          <strong>Here's a breakdown</strong> of some of the skills I've learned along the way and am most proficient in. I've mentioned the skills I am most confident I can apply in a professional capacity.
+          <strong>Here's a breakdown</strong> of some of the skills & frameworks I've learned along the way. This is not an exhaustive list and only includes skills I am most confident I can apply in a professional capacity.
         </p>
         <ul class="feature-icons">
           <li class="icon brands react">React</li>
           <li class="icon brands nodejs">Node.js</li>
           <li class="icon database">PostgreSQL & Redis</li>
-          <li class="icon brands github">Github</li>
-          <li class="icon coding">Hosting on Heroku & Netlify</li>
-          <li class="icon security">Security Conscious</li>
+          <li class="icon brands github">Git</li>
+          <li class="icon coding">Data Structures & Algorithms</li>
+          <li class="icon security">Security Awareness ???</li>
         </ul>
-        <p>SOME EXTRA NOTES & HIGHLIGHTS ABOUT</p>
+        <p>
+          Some specific frameworks and tools I'm expereinced with, related to the above mentioned skills include Redux, Express, Flask,...
+          <br>
+          - mention CI/CD
+        </p>
       </div>
     </section>
     <!-- PROJECTS -->
@@ -82,17 +86,21 @@
         <p>
           <strong>Fantasy Football Draft Board</strong>
           <br>
-          This project is a tool for ranking and organizing NFL players for upcoming fantasy football drafts. I want to build something that I can use even if the quality isn't the best, and something that I can't readily find online the way I would like to use it. 
+          <br>
+          <a href="https://samueljfuentes.github.io/draftboard-ui/" target="_blank" style="font-style: italic;">Check out a beta version of the app!</a>
+          <br>
+          <br>
+          This project is a tool for ranking and organizing NFL players for fantasy football drafts. I want to build something that I can actually use even if the quality isn't the best, and something that I can't readily find online the way I would like to use it. 
           <br><br>
           The App features user accounts and incorporates a basic login and authorization system so that users can save their changes. The UI also offers the option to drag-and-drop players around the draftboard (needs some refining on mobile) for a smoother experience. Features I plan on adding incrementally include autosave, profile customization, and a notes section for players. I suppose I could show the visual design some more love too...
           <br><br>
-          Please reach out to provide feedback on any bugs, UI, and code structure if you decide to engage with the app!
+          Please reach out to provide any feedback on bugs, UI, and code structure if you decide to engage with the app!
         </p>
         <!-- SUB SECTION -->
         <section>
           <header class="subsection-header">
             <h3>React Front End with Redux</h3>
-            <p>The front-end is built with React and uses Redux for state management. It incorporates many modern features and common design patterns like hooks and functional components. Sorry about the design, but I focused on the back-end and plan on improving the UI gradually.</p>
+            <p>The front-end is built with React and uses Redux for state management. It incorporates many modern features and common design patterns like hooks and functional components. Sorry about the design, but I focused on the back-end and plan on improving the UI gradually.<br><a href="https://github.com/samueljfuentes/draftboard-ui" target="_blank" style="font-style: italic;">Check out the Github repo for the front end!</a></p>
           </header>
           <div class="content">
             <div class="gallery">
@@ -102,7 +110,7 @@
                 </div>
               </div>
               <a href="./src/assets/screenshot-board.png" class="landscape">
-                <img src="./src/assets/screenshot-board.png" alt="Coming Soon">
+                <img src="./src/assets/screenshot-board.png" alt="Screenshot of Draftboard">
               </a>
             </div>
           </div>
@@ -111,7 +119,8 @@
         <section>
           <header class="subsection-header">
             <h3>Node Server with Express and a PostgreSQL DB</h3>
-            <p>The back end is built with Node.js and the Express framework. The main database uses PostgreSQL, and the app also incorporates Redis for session management.</p>
+            <p>The back end is built with Node.js and the Express framework. The main database uses PostgreSQL, and the app also incorporates Redis for session management.<br><a href="https://github.com/samueljfuentes/draftboard-api" target="_blank" style="font-style: italic;">Check out the
+            Github repo for the back end!</a></p>
           </header>
           <div class="content">
             <div class="gallery">
@@ -121,7 +130,7 @@
                 </div>
               </div>
               <a href="./src/assets/screenshot-landing.png" class="landscape">
-                <img src="./src/assets/screenshot-landing.png" alt="Coming Soon">
+                <img src="./src/assets/screenshot-landing.png" alt="Screenshot of Signin Page">
               </a>
             </div>
           </div>
@@ -139,8 +148,8 @@
                   <img src(unkown)>
                 </div>
               </div>
-              <a href="./src/assets/stay-path.jpg" class="landscape">
-                <img src="./src/assets/watch-space.jpg" alt="Coming Soon">
+              <a href="./src/assets/heroku-screen.jpg" class="landscape">
+                <img src="./src/assets/heroku-screen.jpg" alt="Heroku Screenshot">
               </a>
             </div>
           </div>
@@ -153,7 +162,13 @@
         <h2>Get In Touch</h2>
       </header>
       <div class="content">
-        <p><strong>I'm confident I've developed a skillset</strong> that is ready to contribute immediately and meaningfully to a team of developers, but I'm also confident that I can grow quickly into a </p>
+        <!-- below sentence will probably be used to close out paragraph, first start with new vs existing talent -->
+        <p><strong>Uncertain economic times are opportunities</strong> for new companies to assert themselves and capture marketshare, and for existing players to consolidate their position. 
+        <br>
+        - talk a bit about new talent vs existing talent, mention the advantage of new vs;
+        - i'm the rare opportunity to hire someone with above average self-awareness (unfortunately), great potential as an engineer and hacker, and excellent communicator
+        - as new companies try to assert themselves to capture marketshare, and existing players consolidate their positions as the guards change, why not help your team and secure an advantage at a bargain during these uncertain economic times.
+        </p>
       </div>
       <footer>
         <ul class="items">

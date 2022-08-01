@@ -124,7 +124,7 @@
     & img {
       display: block;
       height: 25vw;
-      min-height: 18rem;
+      min-height: 12rem;
       object-fit: contain;
       object-position: center;
       width: 100%;
@@ -225,13 +225,13 @@
       width: calc(50% - 0.625rem);
 
       & img {
-        height: 20rem;
+        height: 13rem;
       }
     }
 
     & .landscape {
       & img {
-        height: 20rem;
+        height: 13rem;
       }
     }
   }
