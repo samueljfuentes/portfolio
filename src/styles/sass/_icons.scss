@@ -17,7 +17,7 @@
   width: 2.25rem;
   height: 2.25rem;
   text-align: left;
-  line-height: 2.25rem;
+  line-height: 2rem;
   border-radius: 2.25rem;
   display: inline-block;
   text-decoration: none;
@@ -41,12 +41,17 @@
   font-weight: 400;
 }
 
+// .solids:before {
+//   font-family: "Font Awesome 6 Solid";
+//   font-weight: 900;
+// }
+
 .twitter:before {
   content: "\f099";
 }
 
 .github:before {
-  content: "\f09b";
+  content: "\f09b"
 }
 
 .linked-in:before {
@@ -70,10 +75,14 @@
   content: "\f1c0";
 }
 
-.coding:before {
-  content: "\f121";
+.git:before {
+  content: "\f841";
 }
 
-.security:before {
-  content: "\f21b";
+.coding:before {
+  content: "\f0e8";
+}
+
+.testing:before {
+  content: "\f0ae";
 }
